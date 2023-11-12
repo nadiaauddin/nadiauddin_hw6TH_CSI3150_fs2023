@@ -1,0 +1,38 @@
+/*contains css pertaining to this section/component*/
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.welcome-page{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../Assets/HeroSection-bg-image.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.welcome-heading-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome-sub-heading-wrapper{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color :rgb(255, 254, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color :rgb(255, 254, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color :rgb(255, 254, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
